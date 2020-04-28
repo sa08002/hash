@@ -1,6 +1,7 @@
 # 実行  ruby hash2.rb
 
 
+
 params1 = { name: "田中", age: 30, height: 160 }
 params2 = { name: "佐藤", age: 70, height: 150 }
 params3 = { name: "鈴木", age: 10, height: 120 }
