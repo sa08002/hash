@@ -16,8 +16,8 @@ params.each do |param|
   height_check = param[:height] > 129
 
   puts "#{param[:name]}さん"
-  puts age_check ? "年齢 #{param[:age]}歳:年齢確認OK" : "年齢 #{param[:age]}歳:年齢確認NG"
-  puts height_check ? "身長 #{param[:height]}歳:身長確認OK" : "身長 #{param[:height]}cm:身長確認NG"
+  puts "年齢 #{param[:age]}歳:年齢確認#{age_check ? 'OK' : 'NG'}"
+  puts "身長 #{param[:height]}cm:身長確認#{height_check ? 'OK': 'NG'}"
   puts ""
   puts age_check && height_check ? "ご利用いただけます" : "ご利用いただけません"
 
